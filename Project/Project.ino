@@ -86,7 +86,7 @@ void setup() {
       // write to EEPROM.
       EEPROM.put(0, DEVICE_CONFIG);
       EEPROM.commit();    //Store data to EEPROM
-      bool is_set_device_config = true;
+      is_set_device_config = true;
     }
   }
 
